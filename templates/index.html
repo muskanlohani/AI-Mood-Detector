@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>AI Mood Detector</title>
+
+    <link rel="stylesheet"
+    href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>AI Mood Detector</h1>
+
+        <p>Welcome to your AI wellness system</p>
+
+        <form id="moodForm">
+
+            <label>How are you feeling today?</label>
+
+            <select id="mood">
+
+                <option>Happy</option>
+                <option>Sad</option>
+                <option>Stressed</option>
+                <option>Excited</option>
+
+            </select>
+
+            <button type="submit">
+                Continue
+            </button>
+
+        </form>
+
+        <h2 id="result"></h2>
+
+        <br>
+
+        <video id="video" autoplay></video>
+
+    </div>
+
+<script src="{{ url_for('static', filename='script.js') }}"></script>
+
+</body>
+
+</html>

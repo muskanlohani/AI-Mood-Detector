@@ -1,0 +1,57 @@
+body{
+
+    background:#121212;
+    color:white;
+    font-family:Arial;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    height:100vh;
+}
+
+.container{
+
+    background:#1e1e1e;
+
+    padding:30px;
+
+    border-radius:15px;
+
+    width:350px;
+
+    text-align:center;
+}
+
+select,
+button{
+
+    width:100%;
+
+    padding:12px;
+
+    margin-top:15px;
+
+    border:none;
+
+    border-radius:8px;
+}
+
+button{
+
+    background:#00bcd4;
+
+    color:white;
+
+    cursor:pointer;
+}
+
+video{
+
+    width:100%;
+
+    margin-top:20px;
+
+    border-radius:10px;
+}
